@@ -1,0 +1,8 @@
+myName = str(input('Your name is: '))
+print("It is good to meet you, " + myName)
+print("This is me testing my ability to code. I hope to tell your your age and when you were born")
+myAge = int(input('Your age is: '))
+year = int(input('The current year is: '))
+birthYear = year - myAge
+print('Calcualting your birthyear now...')
+print(birthYear)
