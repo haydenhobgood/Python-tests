@@ -7,7 +7,6 @@ agree = input('Do you understand the instructions?: ')
 if agree.startswith('yes'):
     print('Thank you. We shall begin.')
 else:
-    print('HA HA; very funny.')
     print('Get the HECK outta here')
     import sys
     sys.exit()
@@ -23,6 +22,8 @@ print('What is the name of a friend of yours? Please capatalize')
 friendName = input()
 print('What is your dream car? Please capatalize')
 dreamCar = input()
+for i in range(6):
+    print('Variable loaded (' + str(i) + ')')
 print('This story starts when ' + userName + ' was running late for class. ' + userName + ' grabed their lucky shirt, a ' + color + ' shirt that was a(n) ' + holiday + ' gift.')
 print( userName + ' quickly grabs a ' + food + ' and walks out the door only to see the bus pulling away. ' + userName + ' takes a bite of ' + food)
 print('How will I get to class now??? ' + userName + ' thought. You find inspration. AHA! I will just ' + verb + ' to school!')
