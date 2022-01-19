@@ -1,0 +1,11 @@
+def speAssign(name, amSpec, pmSpec):
+    print('Camper ' + camNam + ' is going to  ' + amSpec + ' and ' + pmSpec + '.')
+
+
+allNames = ['George', 'Geoff', 'Richard', 'Rebekah']
+amSpec =['amArchery', 'pmArchery', 'football', 'basketball', 'amArt', 'pmArt', 'stomp']
+pmSpec =['amArchery', 'pmArchery', 'football', 'basketball', 'amArt', 'pmArt', 'stomp']
+#Do I need to include 3 speciality lists or just two?
+
+speAssign (allNames[2] + amSpec[0] + pmSpec[3])
+# print(allNames[0] + ' is going to ' + speMaster[2] + ' in the morning and ' + speMaster[5] + ' in the afternoon.')
